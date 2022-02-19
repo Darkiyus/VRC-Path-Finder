@@ -32,7 +32,7 @@ In this example we download an image from the Internet and save it to the VRC Mo
             string vrcPath = VRCPath.Search(); //Stores the VRC location in the string "vrcpath".
             string vrcModPath = vrcPath + "\\Mods"; //Add the modfolder to the string, so that we end up with the modfolder.
 
-            WebClient webClient = new WebClient(); Create a WebClient instance.
+            WebClient webClient = new WebClient(); //Create a WebClient instance.
             webClient.DownloadFile("https://cdnb.artstation.com/p/assets/images/images/000/115/039/large/tom-edwards-the-grim-reaper-by-tomedwardsconcepts.jpg", vrcModPath + "\\Reaper.jpg" ); // Pulls a reaper image from the Internet and saves it to the VRC Mod Folder as "Reaper.jpg"
 
         }
