@@ -10,8 +10,8 @@ namespace VRCPathFinder
 
             try
             {
-                object steamInstallPath = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 438100").GetValue("InstallLocation");
-                result = steamInstallPath.ToString();
+                object vrchatInstallPath = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 438100").GetValue("InstallLocation");
+                result = vrchatInstallPath.ToString();
             }
 
             catch 
