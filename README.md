@@ -17,6 +17,7 @@ It returns you as string the VRChat folder.
        VRCPath.Search();
       
 # Example
+In this example we download an image from the Internet and save it to the VRC Mod folder
 
     using VRCPathFinder; //my Pathfinder (IMPORTANT)
     using System.Net; //Download Files
