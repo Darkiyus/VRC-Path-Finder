@@ -8,7 +8,10 @@ You can use this for example to install your mod automatically in the VRC folder
 It returns you as string the VRChat folder.
 
 # How do I use it?
-1. include the dll in your project.
+1. include the VRCPathFinder.dll in your project.
+
+            right click on your project -> add -> project reference -> browse -> select VRCPathFinder.dll -> ok
+            
 2. specify VRCPathFinder as namespace
             
        using VRCPathFinder;
