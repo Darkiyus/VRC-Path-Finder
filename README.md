@@ -1,5 +1,5 @@
 # VRC-Path-Finder
-A small DLL to include to find the VRC location.
+A small DLL to include to find the VRChat location.
 
 # Intended use
 You can use this for example to install your mod automatically in the VRC folder without the annoying "select your VRC.exe".
