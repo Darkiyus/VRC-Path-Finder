@@ -15,7 +15,7 @@ namespace VRCPathFinder
 
             catch 
             {
-                result = "Error";
+                result = "Error - Registry entry not present or null";
             }
             
             return result;
