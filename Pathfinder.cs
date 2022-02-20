@@ -3,7 +3,6 @@ namespace VRCPathFinder
 {
     public class VRCPath
     {
-
         public static string Search()
         {
             string result = "";
@@ -16,22 +15,10 @@ namespace VRCPathFinder
 
             catch 
             {
-
                 result = "Error";
-
             }
             
-            
-
-
             return result;
-
-
-
         }
-
-
-
-
     }
 }
